@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service DetectionServer {
+  rpc predict(stream Chunk) returns (Reply) {}
+}
+
+message Chunk {
+  bytes buffer = 1;
+}
+
+message Reply {
+  map<string, float> result = 1;
+}
