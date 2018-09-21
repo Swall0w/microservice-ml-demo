@@ -2,7 +2,8 @@ import argparse
 from lib.detection_grpc import (MLServer, Servicer)
 from lib.detection import (DetectionPredictor,
                            chainercv_preprocess,
-                           chainercv_postprocess)
+                           chainercv_postprocess_change_labels,
+                           )
 import chainer
 from chainercv.datasets import voc_bbox_label_names
 from chainercv.links import SSD300, SSD512
@@ -36,7 +37,7 @@ if __name__ == '__main__':
             DetectionPredictor(
                 model,
                 chainercv_preprocess,
-                chainercv_postprocess
+                chainercv_postprocess_change_labels
                 )
             )
         )
