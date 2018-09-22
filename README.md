@@ -1,6 +1,8 @@
 # microservice-ml-demo
 Micro service architecture demo using rest API
 
+Currently, we use object detection algorithm for demo, but you can change it as you like.
+
 ## What is inside in this repository?
 - REST API server, which is connected to Object Detection server inside it.
 - Object Detection server with grpc connection
