@@ -3,7 +3,7 @@ Micro service architecture demo using rest API
 
 Currently, we use object detection algorithm for demo, but you can change it as you like.
 
-You can find this slide -> [Plone Conference 2018: Micro Service Architecture with Machine Learning Application
+You can find this project's slide -> [Plone Conference 2018: Micro Service Architecture with Machine Learning Application
 ](https://speakerdeck.com/swall0w/micro-service-architecture-with-machine-learning-application)
 
 ## What is inside in this repository?
